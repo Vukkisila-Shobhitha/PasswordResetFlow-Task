@@ -5,7 +5,7 @@ import { Link, Outlet, useNavigate } from "react-router-dom";
 // Get current logged in user
 const currentUser = async () => {
   try {
-    const response = await axios.get('https://password-reset-qh1e.onrender.com/getUser', {
+    const response = await axios.get('https://passwordreset-backend-mx91.onrender.com/getUser', {
       headers: {
         authorization: `${localStorage.getItem('token')}`
       },
@@ -20,7 +20,7 @@ const currentUser = async () => {
 // Logout user
 const logout = async () => {
   try {
-    const response = await axios.get('https://password-reset-qh1e.onrender.com/logout', {
+    const response = await axios.get('https://passwordreset-backend-mx91.onrender.com/logout', {
       headers: {
         authorization: `${localStorage.getItem('token')}`
       },
