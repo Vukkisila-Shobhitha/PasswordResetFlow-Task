@@ -6,7 +6,7 @@ The project effectively manages the password reset flow, encompassing registrati
 All the form validate with using Formik.
 
 ```
-Deployed URL:
+Deployed URL: https://relaxed-llama-2d4f67.netlify.app/
 ```
 
 ```
